@@ -1,0 +1,13 @@
+target/
+*.log
+*.md
+.git
+.gitignore
+.github
+.idea
+*.iml
+.mvn
+mvnw
+mvnw.cmd
+README.md
+helm-chart/

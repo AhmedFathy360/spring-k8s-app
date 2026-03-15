@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DevOps Demo App</title>
+    <style>
+        body { font-family: Arial; margin: 40px; line-height: 1.6; }
+        h1 { color: #333; }
+        .info { background: #f4f4f4; padding: 20px; border-radius: 5px; }
+        code { background: #e0e0e0; padding: 2px 5px; border-radius: 3px; }
+    </style>
+</head>
+<body>
+    <h1>🚀 Spring Boot Kubernetes Demo</h1>
+    <div class="info">
+        <h2>Application is running!</h2>
+        <p>This application is deployed on Kubernetes with:</p>
+        <ul>
+            <li>Spring Boot 3.1.5</li>
+            <li>PostgreSQL database</li>
+            <li>Persistent storage</li>
+            <li>Helm charts</li>
+        </ul>
+        <h3>Available endpoints:</h3>
+        <ul>
+            <li><code>GET /api/users</code> - List all users</li>
+            <li><code>GET /api/users/{id}</code> - Get user by ID</li>
+            <li><code>POST /api/users</code> - Create new user (JSON: {"name": "John", "email": "john@example.com"})</li>
+            <li><code>DELETE /api/users/{id}</code> - Delete user</li>
+            <li><code>GET /api/users/health</code> - Health check</li>
+            <li><code>GET /actuator/health</code> - Spring Boot actuator health</li>
+        </ul>
+    </div>
+</body>
+</html>

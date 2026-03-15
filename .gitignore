@@ -1,0 +1,52 @@
+# ========================
+# Maven build output
+# ========================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ========================
+# IDE - IntelliJ IDEA
+# ========================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+
+# ========================
+# Spring Boot specific
+# ========================
+application-local.yaml
+application-local.properties
+application-secret.yaml
+
+# ========================
+# Docker
+# ========================
+.docker/
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
+spring.log
